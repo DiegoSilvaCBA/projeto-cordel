@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font1: 'Times New Roman', Times, serif;
+    --font2: 'Kaushan Script', sans-serif;
+    --font3: 'Work Sans', sans-serif;
+    --font4: 'Kaushan Script', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--font1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px; /*espaço em cima do título*/
+    font-variant: small-caps; /*para colocar as primeiras letras maiusculas*/
+    font-family: var(--font2);
+    font-size: 6vw; /* "vw" para auamentar e diminuar a letra de acordo a largura da tela*/
+}
+
+header > p {
+    padding-bottom: 50px; /*espaço na parte de baixo*/
+}
+
+a {
+    color: white;
+    background-color: rgb(110, 109, 109);
+    border-radius: 2px;
+    padding: 2px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.295);
+    text-decoration: none; /*para retirar o sublinhado do link*/
+    font-weight: bold; /*texto em negrito*/
+}
+
+a:hover {
+    text-decoration: underline; /*para o sublinhado no link só aparecer quando passar o mouse em cima */
+    color: white;
+}
+
+section {
+    padding-top: 10vh; /*espaço de cima*/
+    padding-bottom: 10vh; /*espaço de baixo*/
+    line-height: 2em; /*espaçamento ente as linhas*/
+    padding-left: 30px; /*espaçamento da esquerda (tipo a margem)*/
+    font-size: 3vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block; /*para caixa se adaptar ao tamanho do conteúdo*/
+    padding: 10px; /*pra distanciar o conteúdo da borda da caixa*/
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 5px;
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover; /*para a imagem se adaptar e ficar completa no tamanho da caixa*/
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.384); /* borda/ sombra */
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+}
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 8px; /*largura*/
+}
