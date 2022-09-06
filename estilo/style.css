@@ -46,7 +46,7 @@ a {
     color: white;
     background-color: rgb(110, 109, 109);
     border-radius: 2px;
-    padding: 2px;
+    padding: 1px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.295);
     text-decoration: none; /*para retirar o sublinhado do link*/
     font-weight: bold; /*texto em negrito*/
@@ -101,7 +101,7 @@ section#img02 {
 }
 footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 12px;
     color: white;
     background-color: black;
     text-align: center;
